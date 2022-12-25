@@ -15,6 +15,8 @@ Python 3, NumPy, and pandas
 ### Files used
 bikeshare.py : this file have all the code you need 
 
+### Run The project
+python bikeshare.py 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
