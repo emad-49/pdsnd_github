@@ -5,7 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+CITY_NAME =  ['chicago','new york city','washington']
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -20,7 +20,7 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid input
          city = input(' Choose City to starte analyize?\n') 
          city = city.lower()
-         if city not in ['chicago','new york city','washington']:
+         if city not in CITY_NAME:
                 print("please Enter a correct City")
          else:
             break 
