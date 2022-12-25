@@ -13,7 +13,7 @@ use of Python to explore data related to bike share systems for three major citi
 Python 3, NumPy, and pandas
 
 ### Files used
-
+bikeshare.py : this file have all the code you need 
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
