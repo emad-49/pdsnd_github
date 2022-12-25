@@ -190,7 +190,7 @@ def user_stats(df):
     
 def display_data(df):
     
-    """ Function To Aske the user to Display the  5 rows of data Stata  """
+    """  to Display 5 rows of data to the user """
     
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
     start_loc = 0
