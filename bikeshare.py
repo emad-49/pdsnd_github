@@ -5,6 +5,8 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+CITY_NAME = ['chicago','new york city','washington']
+
 
 def get_filters():
     """
@@ -20,7 +22,7 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid input
          city = input(' Choose City to starte analyize?\n') 
          city = city.lower()
-         if city not in ['chicago','new york city','washington']:
+         if city not in CITY_NAME:
                 print("please Enter a correct City")
          else:
             break 
@@ -190,7 +192,7 @@ def user_stats(df):
     
 def display_data(df):
     
-    """ Function To Aske the user to Display the  5 rows of data Stata  """
+    """  to Display 5 rows of data to the user """
     
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n')
     start_loc = 0
